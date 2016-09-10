@@ -32,6 +32,10 @@ class Mustache extends BaseRenderEngine
             $options['loader']  = new Mustache_Loader_FilesystemLoader($templateDirectory);
             $options['charset'] = 'UTF-8';
 
+            if( file_exists( untrailingslashit($templateDirectory) . '/partials' ) ) {
+                $options['partials_loader'] = new Mustache_Loader_FilesystemLoader( untrailingslashit($templateDirectory) . '/partials' );
+            }            
+
             $mustache = new Mustache_Engine($options);
 
             return $mustache->render($this->getFileName($filename), $context);

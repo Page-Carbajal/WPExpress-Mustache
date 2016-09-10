@@ -18,3 +18,8 @@ This project allows me and others to use Mustache as RenderEngine.
 ###Version 1.0.0
 
 - Basic Mustache Implementation
+
+
+###Version 1.0.1
+
+- Added support for partials 
