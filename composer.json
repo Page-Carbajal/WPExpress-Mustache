@@ -9,7 +9,13 @@
             "email": "awesome@pagecarbajal.com"
         }
     ],
+    "autoload":{
+        "psr-4": {
+            "WPExpress\\UI\\": "source/"
+        }
+    },
     "require": {
-        "page-carbajal/wpexpress": "^1.5"
+        "page-carbajal/wpexpress": "^1.5",
+        "mustache/mustache": "^2.11"
     }
 }
