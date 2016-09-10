@@ -1,7 +1,7 @@
 <?php
 
 
-namespace RenderEngine;
+namespace WPExpress\UI\RenderEngine;
 
 
 use Mustache_Engine;
