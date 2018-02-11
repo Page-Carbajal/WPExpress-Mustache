@@ -13,13 +13,20 @@ However I decided to be a grown up and not to force my vision into the world. I 
 This project allows me and others to use Mustache as RenderEngine. 
 
 
-##Change Log
+## Change Log
 
-###Version 1.0.0
+## Version 1.0.2
+
+- Fixed issued: License "GPL3" is not a valid SPDX license identifier
+
+
+## Version 1.0.1
+
+- Added support for partials 
+
+
+## Version 1.0.0
 
 - Basic Mustache Implementation
 
 
-###Version 1.0.1
-
-- Added support for partials 
