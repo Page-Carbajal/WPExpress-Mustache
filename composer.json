@@ -2,7 +2,7 @@
     "name": "page-carbajal/wp-express-ui-mustache-renderer",
     "description": "Mustache Implementation for WPExpress",
     "type": "library",
-    "license": "GPL3",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "WPExpress\\UI\\": "source/"
