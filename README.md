@@ -15,17 +15,24 @@ This project allows me and others to use Mustache as RenderEngine.
 
 ## Change Log
 
-## Version 1.0.2
+### December 12th - Version 1.0.4
+
+- Minor fixes
+
+
+## 2020
+
+### Version 1.0.2
 
 - Fixed issued: License "GPL3" is not a valid SPDX license identifier
 
 
-## Version 1.0.1
+### Version 1.0.1
 
 - Added support for partials 
 
 
-## Version 1.0.0
+### Version 1.0.0
 
 - Basic Mustache Implementation
 

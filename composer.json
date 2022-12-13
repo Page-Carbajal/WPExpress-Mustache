@@ -5,7 +5,7 @@
     "license": "GPL3",
     "autoload": {
         "psr-4": {
-            "PageCarbajal\\WpExpressMustache\\": "source/"
+            "WPExpress\\UI\\": "source/"
         }
     },
     "authors": [
