@@ -1,0 +1,21 @@
+{
+    "name": "page-carbajal/wpexpress-mustache",
+    "description": "Mustache implementation for WPExpress",
+    "type": "Library",
+    "license": "GPL-3.0-or-later",
+        "authors": [
+        {
+            "name": "Page Carbajal",
+            "email": "code@pagecarbajal.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "WPExpress\\UI\\": "source/"
+        }
+    },
+    "require": {
+        "page-carbajal/wpexpress": "^1.5",
+        "mustache/mustache": "^2.11"
+    }
+}
